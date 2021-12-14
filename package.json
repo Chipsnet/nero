@@ -1,0 +1,13 @@
+{
+  "name": "nero",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+      "dev": "node index.js | bunyan -l debug"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "bunyan": "^1.8.15"
+  }
+}
